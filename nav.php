@@ -11,6 +11,7 @@
                 <li><a href="?link=matem_funktsioonid.php">Matemfunktsioonid</a></li>
             </ul>
         </li>
+        <li><a href="?link=too_pildifailidega.php">Töö pildifailidega</a></li>
         <li>
             <a href="https://oleksandraryshniak24.thkit.ee/" target="_blank">
                 vana index</a>

@@ -101,7 +101,7 @@ img{
     width: 200px;
 }
 
-#but1, #button_1 {
+#but1, #button_1, input[type='submit'] {
     width: 200px;
     height: 30px;
     border: 1px solid black;
