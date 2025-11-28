@@ -1,0 +1,60 @@
+div.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 10%;
+    padding: 20px;
+}
+div.flex-container > div {
+    flex: 1 1 250px;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid #d7d7d7;
+}
+div.flex-container h3 {
+    margin-top: 0;
+    color: #0077aa;
+    font-size: 20px;
+}
+
+pre {
+    background: #f5f5f5;
+    padding: 10px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+img {
+    width: 200px;
+    border-radius: 8px;
+}
+
+#but1, #button_1 {
+    width: 200px;
+    height: 35px;
+    border: 1px solid #0077aa;
+    background: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#but1:hover, #button_1:hover {
+    background: #0077aa;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    div.flex-container {
+        flex-direction: column;
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    div.flex-container > div {
+        margin: 10px 0;
+        flex: 1 1 100%;
+    }
+}
