@@ -7,13 +7,13 @@ let raamat = {
 };
 
 //1.1. Lisa meetod, mis kuvab raamatu kirjelduse.
-console.log(raamat);
-let tulemus = document.getElementById("tulemus");
-tulemus.innerHTML = "<b>Pealkiri: </b>" + raamat.pealkiri + "<br>"+
-    "<b>Autor: </b>" + raamat.autor + "<br>"+
-    "<b>Aasta: </b>" + raamat.aasta + "<br>"+
-    "<b>Kirjastus: </b>" + raamat.kirjastus + "<br>"+
-    "<b>إ½anr: </b>" + raamat.zanr + "<br>";
+//console.log(raamat);
+//let tulemus = document.getElementById("tulemus");
+//tulemus.innerHTML = "<b>Pealkiri: </b>" + raamat.pealkiri + "<br>"+
+// "<b>Autor: </b>" + raamat.autor + "<br>"+
+// "<b>Aasta: </b>" + raamat.aasta + "<br>"+
+//"<b>Kirjastus: </b>" + raamat.kirjastus + "<br>"+
+//"<b>إ½anr: </b>" + raamat.zanr + "<br>";
 
 //1.2.Lisa meetod, mis muudab vأ¤ljaandmise aastat ja prindi tulemused konsooli.
 let tulemus1 = document.getElementById("tulemus1");
