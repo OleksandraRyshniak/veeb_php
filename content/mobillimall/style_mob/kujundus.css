@@ -1,0 +1,110 @@
+body{
+    background:#ffffff;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+#header{
+    margin:0 auto;
+}
+.nav{
+    font-size:14px;
+    background:#2d2d2d;
+    -moz-border-bottom-left-radius:6px;
+    -webkit-border-bottom-left-radius:6px;
+    border-bottom-left-radius:6px;
+    -moz-border-bottom-right-radius:6px;
+    -webkit-border-bottom-right-radius:6px;
+    border-bottom-right-radius:6px;
+    margin:0 5px;
+}
+.nav ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+.nav ul li{
+    display:inline;
+    margin:0;
+    padding:0;
+}
+.nav ul li:first-child{
+    margin:0 0 0 5px;
+}
+.nav ul li:last-child{
+    margin:0 5px 0 0;
+}
+.nav ul li a{
+    display:inline-block;
+    color:#f2f2f2;
+    padding:10px;
+    text-decoration:none;
+}
+.nav ul li a:hover{
+    color:#565656;
+}
+h2{
+    font-size:16px;
+    font-weight:bold;
+    color:#9b9b9b;
+    border:#aaaaaa 1px dashed;
+    padding:5px;
+    margin:0 5px;
+}
+#osa1 {
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+}
+p a{
+    color:#3c9ddb;
+    text-decoration:none;
+}
+p a:hover{
+    color:#4d4444;
+}
+.nav2{
+    font-size:14px;
+    background:#2d2d2d;
+    -moz-border-top-left-radius:6px;
+    -webkit-border-top-left-radius:6px;
+    border-top-left-radius:6px;
+    -moz-border-top-right-radius:6px;
+    -webkit-border-top-right-radius:6px;
+    border-top-right-radius:6px;
+    margin:0 5px;
+}
+.nav2 p{
+    text-align:center;
+    color:#f2f2f2;
+    margin:0 5px;
+    padding:5px 0;
+}
+.nav2 p a{
+    display:inline-block;
+    color:#88aa00;
+    padding:5px;
+    text-decoration:none;
+}
+
+.clear{
+    clear:both;
+}
+h1{
+    font-size:24px;
+    color:#2d2d2d;
+    text-align:center;
+    margin-top:20px;
+}
+footer{
+    background-color:#2d2d2d;
+    color:white;
+    text-align:center;
+    padding:10px;
+    margin-top:20px;
+}
