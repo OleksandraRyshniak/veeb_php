@@ -25,9 +25,6 @@ echo "</ol>";
     &lt;/div&gt;
 &lt;/div&gt;
 </pre>
-<div class="image">
-    <img src="" alt="Navigeerimismenüü">
-</div>
 
 <h2>Footer</h2>
 <p>See on plokk, mis kuvab autori nime — Oleksandra Ryshniak.</p>
@@ -36,10 +33,6 @@ echo "</ol>";
     Oleksandra Ryshniak
     &lt;/footer&gt;
 </pre>
-<div class="image">
-    <img src="" alt="Footer">
-</div>
-
 <h2>Header ja Anekdoodi plokk</h2>
 <ol>
     <li>Lisab lehele faili menu.php, kus asub navigeerimismenüü -
@@ -64,11 +57,8 @@ echo "</ol>";
 &lt;/p>
 &lt;?php require("anekdoot_footer.php"); ?&gt;
 </pre>
-<div class="image">
-    <img src="" alt="Header ja Anekdoodi plokk">
-</div>
 
 <h2>Kogu lehe vaade</h2>
-<img src="" alt="Kogu lehe vaade">
+<img src="../image/mobillimall_skrin.jpg" alt="Kogu lehe vaade" width="200" height="400">
 
 
